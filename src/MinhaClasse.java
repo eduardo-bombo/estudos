@@ -1,17 +1,5 @@
 public class MinhaClasse {
-    
-    public static void main (String [] args) {
-        String primeiroNome = "Eduardo";
-        String segundoNome = "Bombo";
-        
-        String nomeCompleto = nomeCompleto(primeiroNome,segundoNome);
-        System.out.println(nomeCompleto);
+    public static void main(String[] args) {
+        System.out.println("Oi, Dudu! Fui executado pelo Terminal :)");
     }
-
-    public static String nomeCompleto (String primeiroNome, String segundoNome) {
-        return "Resultado do método " + primeiroNome.concat(" ").concat(segundoNome);
-
-    }
-
-
 }
